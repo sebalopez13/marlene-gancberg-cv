@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiencia — Marlene Gancberg</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --black: #0a0a0a;
+    --white: #f0ede6;
+    --red: #c0392b;
+    --gray: #aaa;
+    --light: #e2ddd6;
+    --line: #222;
+  }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'DM Mono', monospace;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  a { color: var(--red); text-decoration: none; transition: color 0.2s, border-color 0.2s, background 0.2s; }
+  a:hover { color: var(--white); }
+
+  .page { max-width: 980px; margin: 0 auto; }
+
+  .label {
+    font-size: 0.7rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--red);
+    display: block;
+    margin-bottom: 1.1rem;
+  }
+
+  /* ─── TOP NAV (content pages) ─── */
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 2.5rem;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .topnav .brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--white);
+  }
+
+  .topnav .brand span { color: var(--red); }
+
+  .topnav .links {
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+  }
+
+  .topnav .links a {
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gray);
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+  }
+
+  .topnav .links a:hover { color: var(--red); }
+  .topnav .links a.active { color: var(--red); border-bottom-color: var(--red); }
+
+  .content { padding: 2.8rem 2.5rem 3.5rem; }
+
+  hr.div { border: none; border-top: 1px solid #1a1a1a; margin: 2.2rem 0; }
+
+  .footer {
+    border-top: 1px solid #151515;
+    padding: 1.3rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .footer span, .footer a {
+    font-size: 0.65rem;
+    color: #555;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .footer a:hover { color: var(--red); }
+
+  @media (max-width: 768px) {
+    .topnav { padding: 1.1rem 1.4rem; }
+    .content { padding: 2rem 1.4rem 2.5rem; }
+    .footer { padding: 1.2rem 1.4rem; flex-direction: column; text-align: center; }
+  }
+
+
+  .exp-item {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 0 1.3rem;
+    margin-bottom: 1.6rem;
+    align-items: start;
+  }
+
+  .exp-year {
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    color: var(--red);
+    padding-top: 0.2rem;
+    line-height: 1.5;
+  }
+
+  .exp-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+    line-height: 1.3;
+  }
+
+  .exp-sub {
+    font-size: 0.82rem;
+    color: #aaa;
+    line-height: 1.7;
+  }
+
+  .exp-sub a { border-bottom: 1px solid #5a1a14; }
+
+  @media (max-width: 768px) {
+    .exp-item { grid-template-columns: 68px 1fr; gap: 0 0.9rem; }
+  }
+
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="topnav">
+  <a class="brand" href="index.html">Mar<span>lene</span> Gan<span>c</span>berg</a>
+  <div class="links">
+    <a href="index.html" >Reel</a>
+    <a href="sobre.html" >Sobre mí</a>
+    <a href="experiencia.html" class="active">Experiencia</a>
+    <a href="formacion.html" >Formación</a>
+  </div>
+</nav>
+
+<div class="content">
+  <span class="label">Experiencia en actuación</span>
+
+  <div class="exp-item">
+    <div class="exp-year">2018–2022</div>
+    <div>
+      <div class="exp-title">Videoclips musicales</div>
+      <div class="exp-sub">
+        <a href="https://youtu.be/aLAPBN7EPv4?si=1ghDhd1j5kbF-EaI" target="_blank">Rol DJ</a> &nbsp;·&nbsp;
+        <a href="https://youtu.be/CbpllZfMzV4?si=UlTRQU8dFiSfUBa4" target="_blank">Rol Amante</a> &nbsp;·&nbsp;
+        <a href="https://youtu.be/f7w8suP30dw?si=1IpvD-kubefsGSt6" target="_blank">Rol Mozo / Doble de cuerpo</a> &nbsp;·&nbsp;
+        <a href="https://youtu.be/br7gGFQ69-c?si=fERgjtt6G6hCzSk-" target="_blank">Rol Abuela</a> &nbsp;·&nbsp;
+        <a href="https://youtu.be/CoPqtn8uwKY?si=xlZuTQjJ1bTwjIqE" target="_blank">Rol Amante 2</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-year">2019</div>
+    <div>
+      <div class="exp-title">Ciclo de obras cortas CUATRICILO — El Maletín</div>
+      <div class="exp-sub">Actriz · Dir. Florencia Limonoff</div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-year">2016</div>
+    <div>
+      <div class="exp-title">Video Hip Hop G.O.A.T.</div>
+      <div class="exp-sub">Actriz · Bailarina &nbsp;<a href="https://vimeo.com/168567140" target="_blank">ver video</a></div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-year">2012</div>
+    <div>
+      <div class="exp-title">Videoclip finalista — Passion Pit · I'll Be Alright</div>
+      <div class="exp-sub">Actriz &nbsp;<a href="https://genero.com/watch-video/33291/?vptype=uploads&vpuser=278224&vpsorting=most-recent" target="_blank">ver video</a></div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-year">2012</div>
+    <div>
+      <div class="exp-title">Mini-serie web "Viaje a Zapio"</div>
+      <div class="exp-sub">
+        Actriz · Mar–Nov 2012 · Dir. Santiago y Mariano Swi &nbsp;
+        <a href="https://www.youtube.com/watch?v=AmzhEbKN55E&t=19s" target="_blank">Ep. 1</a> &nbsp;·&nbsp;
+        <a href="https://www.youtube.com/watch?v=tcTynw1U9VI" target="_blank">Ep. 2</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-year">2006</div>
+    <div>
+      <div class="exp-title">Publicidad Coca-Cola</div>
+      <div class="exp-sub">Actriz</div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-year">2005</div>
+    <div>
+      <div class="exp-title">Obra teatral "Generación Frankenstein"</div>
+      <div class="exp-sub">Actriz · Teatro El Cubo</div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <span>Ana Marlene Gancberg</span>
+  <a href="mailto:marlene.ganc@gmail.com">marlene.ganc@gmail.com</a>
+</footer>
+</div>
+</body>
+</html>

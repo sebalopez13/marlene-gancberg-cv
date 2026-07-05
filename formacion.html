@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formación — Marlene Gancberg</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --black: #0a0a0a;
+    --white: #f0ede6;
+    --red: #c0392b;
+    --gray: #aaa;
+    --light: #e2ddd6;
+    --line: #222;
+  }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'DM Mono', monospace;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+
+  a { color: var(--red); text-decoration: none; transition: color 0.2s, border-color 0.2s, background 0.2s; }
+  a:hover { color: var(--white); }
+
+  .page { max-width: 980px; margin: 0 auto; }
+
+  .label {
+    font-size: 0.7rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--red);
+    display: block;
+    margin-bottom: 1.1rem;
+  }
+
+  /* ─── TOP NAV (content pages) ─── */
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 2.5rem;
+    border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .topnav .brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--white);
+  }
+
+  .topnav .brand span { color: var(--red); }
+
+  .topnav .links {
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+  }
+
+  .topnav .links a {
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gray);
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+  }
+
+  .topnav .links a:hover { color: var(--red); }
+  .topnav .links a.active { color: var(--red); border-bottom-color: var(--red); }
+
+  .content { padding: 2.8rem 2.5rem 3.5rem; }
+
+  hr.div { border: none; border-top: 1px solid #1a1a1a; margin: 2.2rem 0; }
+
+  .footer {
+    border-top: 1px solid #151515;
+    padding: 1.3rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .footer span, .footer a {
+    font-size: 0.65rem;
+    color: #555;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .footer a:hover { color: var(--red); }
+
+  @media (max-width: 768px) {
+    .topnav { padding: 1.1rem 1.4rem; }
+    .content { padding: 2rem 1.4rem 2.5rem; }
+    .footer { padding: 1.2rem 1.4rem; flex-direction: column; text-align: center; }
+  }
+
+
+  .form-item {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 0 1.3rem;
+    margin-bottom: 1rem;
+    align-items: start;
+  }
+
+  .form-year {
+    font-size: 0.65rem;
+    color: #5a5a5a;
+    letter-spacing: 0.04em;
+    padding-top: 0.14rem;
+  }
+
+  .form-desc {
+    font-size: 0.88rem;
+    color: var(--light);
+    line-height: 1.65;
+  }
+
+  .form-desc strong {
+    color: var(--white);
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .form-desc a { border-bottom: 1px solid #5a1a14; }
+
+  @media (max-width: 768px) {
+    .form-item { grid-template-columns: 68px 1fr; gap: 0 0.9rem; }
+  }
+
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="topnav">
+  <a class="brand" href="index.html">Mar<span>lene</span> Gan<span>c</span>berg</a>
+  <div class="links">
+    <a href="index.html" >Reel</a>
+    <a href="sobre.html" >Sobre mí</a>
+    <a href="experiencia.html" >Experiencia</a>
+    <a href="formacion.html" class="active">Formación</a>
+  </div>
+</nav>
+
+<div class="content">
+  <span class="label">Formación actoral (1996–2026)</span>
+
+  <div class="form-item"><div class="form-year">2026</div><div class="form-desc"><strong>Entrenamiento Actoral frente a Cámara y géneros</strong> — Florencia Limonoff</div></div>
+  <div class="form-item"><div class="form-year">2026</div><div class="form-desc"><strong>Entrenamiento Actoral frente a Cámara</strong> — Tatiana Rojas</div></div>
+  <div class="form-item"><div class="form-year">2025–26</div><div class="form-desc"><strong>Entrenamiento Actoral</strong> — Santiago Swi (Método Nora Moseinco)</div></div>
+  <div class="form-item"><div class="form-year">2025</div><div class="form-desc">Charla de Entrenamiento Actoral — <strong>Juan Minujín</strong> (Actuartestudio)</div></div>
+  <div class="form-item"><div class="form-year">2025</div><div class="form-desc">Actuarte — <strong>Julian Doregger</strong></div></div>
+  <div class="form-item"><div class="form-year">2019</div><div class="form-desc">Entrenamiento Actoral Avanzado — <strong>Florencia Limonoff</strong></div></div>
+  <div class="form-item"><div class="form-year">2011–18</div><div class="form-desc">Entrenamiento Actoral Avanzado — <strong>Santiago Swi</strong></div></div>
+  <div class="form-item"><div class="form-year">2011</div><div class="form-desc">Seminario de Clown — <strong>Santiago Swi</strong></div></div>
+  <div class="form-item"><div class="form-year">2009–10</div><div class="form-desc">Escuela de Actuación — <strong>Nora Moseinco</strong></div></div>
+  <div class="form-item"><div class="form-year">2004–05</div><div class="form-desc">Escuela de Actuación <strong>Hugo Midón</strong> — Teatro, Expresión Corporal, Coreografía, Canto</div></div>
+  <div class="form-item"><div class="form-year">1996–02</div><div class="form-desc">Talleres de Actuación, Comedia Musical y Música — <strong>Mundo Nuevo</strong></div></div>
+  <div class="form-item"><div class="form-year">1996–10</div><div class="form-desc">Expresión Corporal y Música con el Cuerpo — <strong>Judith Wiskitski</strong> y <strong>Osvaldo Aguilar</strong></div></div>
+
+  <hr class="div">
+
+  <span class="label">Educación formal</span>
+
+  <div class="form-item"><div class="form-year">2017–26</div><div class="form-desc"><strong>DJ</strong> — Escuela Arjaus · <a href="https://www.instagram.com/b.2.m.e" target="_blank">@b.2.m.e</a></div></div>
+  <div class="form-item"><div class="form-year">2016</div><div class="form-desc"><strong>Diseñadora Industrial</strong> — FADU · Universidad de Buenos Aires</div></div>
+  <div class="form-item"><div class="form-year">2011</div><div class="form-desc">Seminario Dirección de Arte — <strong>Espacio Buenos Aires</strong> · Prof. Martín Diez</div></div>
+  <div class="form-item"><div class="form-year">2008</div><div class="form-desc"><strong>Escuela Argentina de Fotografía</strong></div></div>
+  <div class="form-item"><div class="form-year">2007</div><div class="form-desc"><strong>Escuela de Líderes en Recreación ICUF</strong></div></div>
+  <div class="form-item"><div class="form-year">2007</div><div class="form-desc"><strong>Perito Mercantil</strong> — Escuela Superior de Comercio Carlos Pellegrini</div></div>
+  <div class="form-item"><div class="form-year">2002</div><div class="form-desc"><strong>Instituto Mundo Nuevo</strong> (Primaria) — Arte, Plástica, Música, Teatro e Inglés</div></div>
+</div>
+
+<footer class="footer">
+  <span>Ana Marlene Gancberg</span>
+  <a href="mailto:marlene.ganc@gmail.com">marlene.ganc@gmail.com</a>
+</footer>
+</div>
+</body>
+</html>
