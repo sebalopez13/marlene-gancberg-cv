@@ -1,2 +1,2 @@
 # marlene-gancberg-cv
-CV de Marlene Gancberg
+CV de Marlene Gancberg. Reel + experiencia
