@@ -1,2 +1,2 @@
 # marlene-gancberg-cv
-Actriz - CV de Marlene Gancberg.
+CV de Marlene Gancberg.
